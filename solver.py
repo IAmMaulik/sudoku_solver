@@ -79,5 +79,5 @@ board = [
 
 print_board(board)
 solve(board)
-print("\n\n\n\nSolution is:\n\n\n\n")
+print("\n\nSolution is:\n\n\n\n")
 print_board(board)
