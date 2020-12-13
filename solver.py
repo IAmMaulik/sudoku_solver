@@ -1,3 +1,21 @@
+def solve(bo):
+    find = find_empty(bo)
+    if not find:
+        return True
+    else:
+        row, col = find
+
+    for i in range(1, 10):
+        if isValid(bo, i, (row, col)):
+            bo[row][col] = i
+            if solve(bo):
+                return True
+            
+            # Backtracking
+            bo[row][col] = 0
+    return False
+
+
 # Printing the board out
 def print_board(bo):
     for i in range (len(bo)):
@@ -20,6 +38,7 @@ def find_empty(bo):
         for y in range(len(bo[0])):
             if bo[x][y] == 0:
                 return (x, y) # Coordinates of the empty square
+    return None
 
 
 # Is the position valid or not
@@ -41,8 +60,7 @@ def isValid(bo, num, pos):
     for i in range(box_y*3, box_y*3 + 3):
         for j in range(box_x*3, box_x*3 + 3):
             if bo[i][j]==num and (i, j) != pos:
-                return False
-    
+                return False    
     return True
 
 
@@ -58,3 +76,8 @@ board = [
     [1, 2, 0, 0, 0, 7, 4, 0, 0],
     [0, 4, 9, 2, 0, 6, 0, 0, 7]
 ]
+
+print_board(board)
+solve(board)
+print("\n\n\n\nSolution is:\n\n\n\n")
+print_board(board)
