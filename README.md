@@ -46,7 +46,7 @@ List of features ready and TODOs for future development
 
 * Press the enter key to confirm it
 
-* When you are done entering the values, press the enter key to see the beautiful animation of it solving the sudoku puzzle
+* When you are done entering the values, press the space bar key to see the beautiful animation of it solving the sudoku puzzle
 
 ## Status
 
