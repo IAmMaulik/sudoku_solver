@@ -20,7 +20,7 @@ This is one of the most challenging projects of mine ever (But the result is wel
 ## Screenshots
 
 This is a GIF of the final product of the program
-[GIF of program](./video/Sudoku-Solver-Demo.GIF)
+![GIF of program](./video/Sudoku-Solver-Demo.gif)
 
 ## Setup
 
