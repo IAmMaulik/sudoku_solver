@@ -5,6 +5,7 @@
 ## Table of contents
 
 * [General info](#general-info)
+* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Features](#features)
 * [How to Use](#how-to-use)
@@ -15,6 +16,11 @@
 ## General info
 
 This is one of the most challenging projects of mine ever (But the result is well worth the effort that went into it). It uses recursion and the backtracking algorithm. It is inspired by the famous N-Queen problem.
+
+## Screenshots
+
+This is a GIF of the final product of the program
+[GIF of program](./video/Sudoku-Solver-Demo.GIF)
 
 ## Setup
 
